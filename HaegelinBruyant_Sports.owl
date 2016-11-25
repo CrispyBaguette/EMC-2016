@@ -1,0 +1,1339 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/asususer/ontologies/2016/10/Sports"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/asususer/ontologies/2016/10/Sports">
+    <Prefix name="" IRI="http://www.semanticweb.org/asususer/ontologies/2016/10/Sports#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://xmlns.com/foaf/0.1/</Import>
+    <Declaration>
+        <Class IRI="#SportCollectif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvenementsBasket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportifsInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPoste"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrenom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Man"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipeRugby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSportOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mathieu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PosteAilierArriereBasket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvenementsBasketInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeulementCapitaines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TroisiemeLigneAileRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportifsFrancais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeuxiemeLigneRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PilierRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TroisiemeLigneCentreRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndividuelsInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RugbyArriereRugby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jordan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PosteAilierFortBasket"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DemiMeleeRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PosteArriereMeneurBasket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Club"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportifsHommeNonFrançais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isClub"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSomeSport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostesRugby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RugbyPlayer_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abrogast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AilierBasket"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPrenom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nationalite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SIG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrandsSportifsFrançais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Golf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvenementsInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapitaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipesNonMixtes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCapitaine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompetition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prenom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PosteMeneurBasket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostePivotBasket"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RugbyPlayer_4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TroisQuartsRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SigPlayer_3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PosteAilierBasket"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pascal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostesBasketBall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipeBasket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InternationalPlayer_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RugbyPlayer_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Francaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvenementsMultiSports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPoste"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipesPureBasketOuPureRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capitaine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquipeRugby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquipeBasketSIG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RugbyPlayer_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SigPlayer_5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InternationalPlayer_3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CapitainesFrançais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSportif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportIndividuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mauss"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNationality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvenementsRugbySeulement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportifFemme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonFrancaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DemiOuvertureRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sportif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SigPlayer_6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipesNonMixteInternationales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InternationalPlayer_2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompetition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Woman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TalonneurRugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PosteArriereBasket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evenement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompetitionInternationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suisse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SigPlayer_8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RugbyClub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SigPlayer_7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportifHomme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InternationalPlayer_1"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AilierBasket"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPoste"/>
+                <Class IRI="#PosteAilierBasket"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CapitainesFrançais"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasNationality"/>
+                <Class IRI="#Francaise"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPoste"/>
+                <Class IRI="#Capitaine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EquipeBasket"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Equipe"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSport"/>
+                <Class IRI="#Rugby"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EquipeRugby"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Equipe"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSport"/>
+                <Class IRI="#Basket"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EquipesNonMixteInternationales"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Equipe"/>
+            <Class IRI="#EquipesNonMixtes"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#hasEvent"/>
+                <Class IRI="#EvenementsInternationaux"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EquipesNonMixtes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Equipe"/>
+            <ObjectUnionOf>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#hasSportif"/>
+                    <Class IRI="#SportifFemme"/>
+                </ObjectAllValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#hasSportif"/>
+                    <Class IRI="#SportifHomme"/>
+                </ObjectAllValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EquipesPureBasketOuPureRugby"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Equipe"/>
+            <ObjectUnionOf>
+                <Class IRI="#EquipeBasket"/>
+                <Class IRI="#EquipeRugby"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EvenementsBasket"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Evenement"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#hasCompetition"/>
+                <Class IRI="#Basket"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EvenementsBasketInternationaux"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Evenement"/>
+            <Class IRI="#EvenementsInternationaux"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCompetition"/>
+                <Class IRI="#Basket"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EvenementsMultiSports"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Evenement"/>
+            <ObjectMinCardinality cardinality="2">
+                <ObjectProperty IRI="#hasCompetition"/>
+                <Class IRI="#Sport"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EvenementsRugbySeulement"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Evenement"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasCompetition"/>
+                <Class IRI="#Rugby"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GrandsSportifsFrançais"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasNationality"/>
+                <Class IRI="#Francaise"/>
+            </ObjectSomeValuesFrom>
+            <ObjectMinCardinality cardinality="2">
+                <ObjectProperty IRI="#hasSport"/>
+                <Class IRI="#Sport"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IndividuelsInternationaux"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasEvent"/>
+                <Class IRI="#EvenementsInternationaux"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSport"/>
+                <Class IRI="#SportIndividuel"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SeulementCapitaines"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasPoste"/>
+                <Class IRI="#Capitaine"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SportifFemme"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasGender"/>
+                <Class IRI="#Woman"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SportifHomme"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasGender"/>
+                <Class IRI="#Man"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SportifsFrancais"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasNationality"/>
+                <Class IRI="#Francaise"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SportifsHommeNonFrançais"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasGender"/>
+                <Class IRI="#Man"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNationality"/>
+                <Class IRI="#NonFrancaise"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SportifsInternationaux"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sportif"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasEvent"/>
+                <Class IRI="#EvenementsInternationaux"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Basket"/>
+        <Class IRI="#SportCollectif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitaine"/>
+        <Class IRI="#Poste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompetitionInternationale"/>
+        <Class IRI="#Competition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompetitionInternationale"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isCompetition"/>
+            <Class IRI="#EvenementsInternationaux"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DemiMeleeRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DemiOuvertureRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeuxiemeLigneRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipe"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvenementsInternationaux"/>
+        <Class IRI="#Evenement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <Class IRI="#SportCollectif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Francaise"/>
+        <Class IRI="#Nationalite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <Class IRI="#SportIndividuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Man"/>
+        <Class IRI="#Sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nom"/>
+        <Class IRI="#Identite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonFrancaise"/>
+        <Class IRI="#Nationalite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PilierRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PosteAilierArriereBasket"/>
+        <Class IRI="#PostesBasketBall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PosteAilierBasket"/>
+        <Class IRI="#PostesBasketBall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PosteAilierFortBasket"/>
+        <Class IRI="#PostesBasketBall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PosteArriereBasket"/>
+        <Class IRI="#PostesBasketBall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PosteArriereMeneurBasket"/>
+        <Class IRI="#PostesBasketBall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PosteMeneurBasket"/>
+        <Class IRI="#PostesBasketBall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostePivotBasket"/>
+        <Class IRI="#PostesBasketBall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostesBasketBall"/>
+        <Class IRI="#Poste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostesRugby"/>
+        <Class IRI="#Poste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prenom"/>
+        <Class IRI="#Identite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <Class IRI="#SportCollectif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RugbyArriereRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sex"/>
+        <Class IRI="#Identite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportCollectif"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportIndividuel"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sportif"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suisse"/>
+        <Class IRI="#Nationalite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TalonneurRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <Class IRI="#SportIndividuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TroisQuartsRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TroisiemeLigneAileRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TroisiemeLigneCentreRugby"/>
+        <Class IRI="#PostesRugby"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Woman"/>
+        <Class IRI="#Sex"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Basket"/>
+        <Class IRI="#Football"/>
+        <Class IRI="#Rugby"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DemiMeleeRugby"/>
+        <Class IRI="#DemiOuvertureRugby"/>
+        <Class IRI="#DeuxiemeLigneRugby"/>
+        <Class IRI="#PilierRugby"/>
+        <Class IRI="#RugbyArriereRugby"/>
+        <Class IRI="#TalonneurRugby"/>
+        <Class IRI="#TroisQuartsRugby"/>
+        <Class IRI="#TroisiemeLigneAileRugby"/>
+        <Class IRI="#TroisiemeLigneCentreRugby"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Equipe"/>
+        <Class IRI="#Sportif"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Francaise"/>
+        <Class IRI="#NonFrancaise"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Golf"/>
+        <Class IRI="#Tennis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PosteAilierArriereBasket"/>
+        <Class IRI="#PosteAilierBasket"/>
+        <Class IRI="#PosteAilierFortBasket"/>
+        <Class IRI="#PosteArriereBasket"/>
+        <Class IRI="#PosteArriereMeneurBasket"/>
+        <Class IRI="#PosteMeneurBasket"/>
+        <Class IRI="#PostePivotBasket"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PostesBasketBall"/>
+        <Class IRI="#PostesRugby"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SportCollectif"/>
+        <Class IRI="#SportIndividuel"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Nom"/>
+        <NamedIndividual IRI="#Abrogast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EquipeBasket"/>
+        <NamedIndividual IRI="#EquipeBasketSIG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EquipeRugby"/>
+        <NamedIndividual IRI="#EquipeRugby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IndividuelsInternationaux"/>
+        <NamedIndividual IRI="#InternationalPlayer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifsInternationaux"/>
+        <NamedIndividual IRI="#InternationalPlayer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IndividuelsInternationaux"/>
+        <NamedIndividual IRI="#InternationalPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifsInternationaux"/>
+        <NamedIndividual IRI="#InternationalPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifsInternationaux"/>
+        <NamedIndividual IRI="#InternationalPlayer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifsInternationaux"/>
+        <NamedIndividual IRI="#InternationalPlayer_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prenom"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prenom"/>
+        <NamedIndividual IRI="#Mathieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nom"/>
+        <NamedIndividual IRI="#Mauss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nom"/>
+        <NamedIndividual IRI="#Muller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prenom"/>
+        <NamedIndividual IRI="#Pascal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Club"/>
+        <NamedIndividual IRI="#RugbyClub"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#RugbyPlayer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#RugbyPlayer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#RugbyPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifFemme"/>
+        <NamedIndividual IRI="#RugbyPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#RugbyPlayer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifFemme"/>
+        <NamedIndividual IRI="#RugbyPlayer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#RugbyPlayer_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#RugbyPlayer_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Club"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AilierBasket"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Francaise"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CapitainesFrançais"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeulementCapitaines"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Francaise"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Suisse"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GrandsSportifsFrançais"/>
+        <NamedIndividual IRI="#SigPlayer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#SigPlayer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#SigPlayer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Suisse"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Suisse"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sportif"/>
+        <NamedIndividual IRI="#SigPlayer_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#SigPlayer_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Francaise"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPoste"/>
+            <Class IRI="#PosteMeneurBasket"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#SigPlayer_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Francaise"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPoste"/>
+            <Class IRI="#PosteMeneurBasket"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#SigPlayer_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Francaise"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportifHomme"/>
+        <NamedIndividual IRI="#SigPlayer_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNationality"/>
+            <Class IRI="#Francaise"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SigPlayer_8"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#EquipeRugby"/>
+        <NamedIndividual IRI="#RugbyClub"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNom"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+        <NamedIndividual IRI="#Abrogast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrenom"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+        <NamedIndividual IRI="#Mathieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNom"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+        <NamedIndividual IRI="#Mauss"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrenom"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#SigPlayer_3"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNom"/>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+        <NamedIndividual IRI="#Muller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrenom"/>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+        <NamedIndividual IRI="#Pascal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#SigPlayer_5"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#SigPlayer_6"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#SigPlayer_7"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClub"/>
+        <NamedIndividual IRI="#SigPlayer_8"/>
+        <NamedIndividual IRI="#SIG"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCapitaine"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCapitaine"/>
+        <ObjectProperty IRI="#isCapitaine"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasClub"/>
+        <ObjectProperty IRI="#isClub"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCompetition"/>
+        <ObjectProperty IRI="#isCompetition"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasEvent"/>
+        <ObjectProperty IRI="#isEvent"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasNom"/>
+        <ObjectProperty IRI="#isNom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPoste"/>
+        <ObjectProperty IRI="#isPoste"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPrenom"/>
+        <ObjectProperty IRI="#isPrenom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSomeSport"/>
+        <ObjectProperty IRI="#isSportOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSport"/>
+        <ObjectProperty IRI="#isSport"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isCompetition"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapitaine"/>
+        <Class IRI="#Equipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClub"/>
+        <ObjectUnionOf>
+            <Class IRI="#Equipe"/>
+            <Class IRI="#Sportif"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCompetition"/>
+        <Class IRI="#Evenement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
+        <ObjectUnionOf>
+            <Class IRI="#Equipe"/>
+            <Class IRI="#Sportif"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGender"/>
+        <Class IRI="#Sportif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNationality"/>
+        <Class IRI="#Sportif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNom"/>
+        <Class IRI="#Sportif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPoste"/>
+        <Class IRI="#Sportif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrenom"/>
+        <Class IRI="#Sportif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSomeSport"/>
+        <Class IRI="#Competition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSport"/>
+        <ObjectUnionOf>
+            <Class IRI="#Evenement"/>
+            <Class IRI="#Sportif"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSportif"/>
+        <Class IRI="#Equipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSportOf"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapitaine"/>
+        <Class IRI="#Sportif"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClub"/>
+        <Class IRI="#Club"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCompetition"/>
+        <Class IRI="#Competition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Evenement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGender"/>
+        <Class IRI="#Sex"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNationality"/>
+        <Class IRI="#Nationalite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNom"/>
+        <Class IRI="#Nom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPoste"/>
+        <Class IRI="#Poste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrenom"/>
+        <Class IRI="#Prenom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSomeSport"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSport"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSportif"/>
+        <Class IRI="#Sportif"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSportOf"/>
+        <Class IRI="#Competition"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AilierBasket</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs ailiers dans une equipe de basket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CapitainesFrançais</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Capitaines de nationalité française</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CompetitionInternationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Competition d&apos;un évènement international</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EquipesNonMixteInternationales</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Equipes non mixtes qui ont participé à au moins un évènement international</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EquipesNonMixtes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Equipes composées uniquement d&apos;hommes ou uniquement de femmes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EvenementsBasket</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evenements qui comprennent au moins une compétition de basket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EvenementsBasketInternationaux</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evenements qui comprennent des compétitions de basket et sont internationaux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EvenementsInternationaux</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evenements internationaux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EvenementsMultiSports</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evenements qui comprennent des compétitions dans plus d&apos;un sport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EvenementsRugbySeulement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evenements qui ne comprennent que des competitions de rugby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GrandsSportifsFrançais</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Concept improprement défini</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GrandsSportifsFrançais</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs français pratiquant au moins 2 sports pour lesquels ils sont engagés dans des événements internationaux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IndividuelsInternationaux</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs ne participant qu&apos;à des épreuves individuelles dans des événements internationaux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeulementCapitaines</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs toujours capitaines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SportifFemme</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs femmes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SportifHomme</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs hommes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SportifsFrancais</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs de nationalité française</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SportifsHommeNonFrançais</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs hommes de nationalité non française</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SportifsInternationaux</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sportifs participant à des évènements internationaux</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
