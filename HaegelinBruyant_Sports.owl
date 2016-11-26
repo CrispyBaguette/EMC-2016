@@ -20,10 +20,10 @@
         <Class IRI="#Equipe"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EvenementsBasket"/>
+        <Class IRI="#SportifsInternationaux"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SportifsInternationaux"/>
+        <Class IRI="#EvenementsBasket"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPoste"/>
@@ -39,9 +39,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isSportOf"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Mathieu"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PosteAilierArriereBasket"/>
@@ -74,40 +71,31 @@
         <Class IRI="#IndividuelsInternationaux"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SigPlayer_1"/>
+        <Class IRI="#RugbyArriereRugby"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#RugbyArriereRugby"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasClub"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Jordan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Muller"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#PosteAilierFortBasket"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEvent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DemiMeleeRugby"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PosteArriereMeneurBasket"/>
+        <ObjectProperty IRI="#hasEvent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rugby"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Club"/>
+        <Class IRI="#PosteArriereMeneurBasket"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SportifsHommeNonFrançais"/>
+        <Class IRI="#Club"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isClub"/>
@@ -116,13 +104,13 @@
         <ObjectProperty IRI="#hasSomeSport"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SportifsHommeNonFrançais"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PostesRugby"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RugbyPlayer_3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Abrogast"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AilierBasket"/>
@@ -149,10 +137,10 @@
         <Class IRI="#EvenementsInternationaux"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasCapitaine"/>
+        <Class IRI="#EquipesNonMixtes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EquipesNonMixtes"/>
+        <ObjectProperty IRI="#hasCapitaine"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isCapitaine"/>
@@ -164,10 +152,10 @@
         <Class IRI="#Nom"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Prenom"/>
+        <Class IRI="#PosteMeneurBasket"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PosteMeneurBasket"/>
+        <Class IRI="#Prenom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Identite"/>
@@ -185,10 +173,10 @@
         <Class IRI="#TroisQuartsRugby"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Competition"/>
+        <NamedIndividual IRI="#SigPlayer_3"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SigPlayer_3"/>
+        <Class IRI="#Competition"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isSport"/>
@@ -198,9 +186,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isEvent"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Pascal"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PostesBasketBall"/>
@@ -275,9 +260,6 @@
         <Class IRI="#SportIndividuel"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mauss"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasNationality"/>
     </Declaration>
     <Declaration>
@@ -317,10 +299,10 @@
         <Class IRI="#TalonneurRugby"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PosteArriereBasket"/>
+        <Class IRI="#Evenement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Evenement"/>
+        <Class IRI="#PosteArriereBasket"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CompetitionInternationale"/>
@@ -335,10 +317,10 @@
         <Class IRI="#Tennis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#RugbyClub"/>
+        <NamedIndividual IRI="#SigPlayer_7"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SigPlayer_7"/>
+        <NamedIndividual IRI="#RugbyClub"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SportifHomme"/>
@@ -765,10 +747,6 @@
         <Class IRI="#SportIndividuel"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#Nom"/>
-        <NamedIndividual IRI="#Abrogast"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#EquipeBasket"/>
         <NamedIndividual IRI="#EquipeBasketSIG"/>
     </ClassAssertion>
@@ -799,26 +777,6 @@
     <ClassAssertion>
         <Class IRI="#SportifsInternationaux"/>
         <NamedIndividual IRI="#InternationalPlayer_4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Prenom"/>
-        <NamedIndividual IRI="#Jordan"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Prenom"/>
-        <NamedIndividual IRI="#Mathieu"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Nom"/>
-        <NamedIndividual IRI="#Mauss"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Nom"/>
-        <NamedIndividual IRI="#Muller"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Prenom"/>
-        <NamedIndividual IRI="#Pascal"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Club"/>
@@ -1016,29 +974,9 @@
         <NamedIndividual IRI="#SIG"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasNom"/>
-        <NamedIndividual IRI="#SigPlayer_1"/>
-        <NamedIndividual IRI="#Abrogast"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPrenom"/>
-        <NamedIndividual IRI="#SigPlayer_1"/>
-        <NamedIndividual IRI="#Mathieu"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasClub"/>
         <NamedIndividual IRI="#SigPlayer_2"/>
         <NamedIndividual IRI="#SIG"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasNom"/>
-        <NamedIndividual IRI="#SigPlayer_2"/>
-        <NamedIndividual IRI="#Mauss"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPrenom"/>
-        <NamedIndividual IRI="#SigPlayer_2"/>
-        <NamedIndividual IRI="#Jordan"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasClub"/>
@@ -1049,16 +987,6 @@
         <ObjectProperty IRI="#hasClub"/>
         <NamedIndividual IRI="#SigPlayer_4"/>
         <NamedIndividual IRI="#SIG"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasNom"/>
-        <NamedIndividual IRI="#SigPlayer_4"/>
-        <NamedIndividual IRI="#Muller"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPrenom"/>
-        <NamedIndividual IRI="#SigPlayer_4"/>
-        <NamedIndividual IRI="#Pascal"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasClub"/>
@@ -1080,6 +1008,36 @@
         <NamedIndividual IRI="#SigPlayer_8"/>
         <NamedIndividual IRI="#SIG"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Abrogast</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="#SigPlayer_1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mathieu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mauss</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="#SigPlayer_2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jordan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Muller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="#SigPlayer_4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pascal</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasCapitaine"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
