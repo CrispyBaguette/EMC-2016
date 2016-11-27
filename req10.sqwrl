@@ -1,0 +1,2 @@
+# Nombre de sportifs qui jouent au basket
+Sportif(?sp) ^ Club(?cl) ^ Equipe(?eq) ^ hasSport(?cl, 'basket') ^ hasEquipe(?cl, ?eq) ^ hasSportif(?eq, ?sp) -> sqwrl:count(?sp)

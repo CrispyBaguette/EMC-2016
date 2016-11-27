@@ -1,0 +1,2 @@
+# Pour chaque équipe, noms de ses joueurs
+Equipe(?eq) ^ hasSportif(?eq, ?sp) ^ name(?sp, ?sp_name) -> sqwrl:select(?eq, ?sp_name)

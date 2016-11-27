@@ -5,19 +5,24 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/asususer/ontologies/2016/10/Sports">
-    <Prefix name="" IRI="http://www.semanticweb.org/asususer/ontologies/2016/10/Sports#"/>
+     ontologyIRI="http://www.semanticweb.org/asususer/ontologies/2016/10/Sports"
+     versionIRI="urn:absolute:h">
+    <Prefix name="" IRI="http://www.semanticweb.org/asususer/ontologies/2016/10/Sports"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="sport" IRI="http://www.semanticweb.org/asususer/ontologies/2016/10/Sports#"/>
     <Import>http://xmlns.com/foaf/0.1/</Import>
     <Declaration>
         <Class IRI="#SportCollectif"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Equipe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SportifsInternationaux"/>
@@ -27,9 +32,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPoste"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPrenom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Man"/>
@@ -54,6 +56,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SportifsFrancais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_1"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSport"/>
@@ -149,16 +154,10 @@
         <ObjectProperty IRI="#hasCompetition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Nom"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#PosteMeneurBasket"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Prenom"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Identite"/>
+        <NamedIndividual IRI="#Event_3"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PostePivotBasket"/>
@@ -206,16 +205,10 @@
         <Class IRI="#Francaise"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sex"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#EvenementsMultiSports"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isPoste"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasGender"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EquipesPureBasketOuPureRugby"/>
@@ -245,6 +238,9 @@
         <Class IRI="#Football"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#InternationalPlayer_3"/>
     </Declaration>
     <Declaration>
@@ -264,9 +260,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#EvenementsRugbySeulement"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasNom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SportifFemme"/>
@@ -489,26 +482,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#SportifFemme"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Sportif"/>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#hasGender"/>
-                <Class IRI="#Woman"/>
-            </ObjectAllValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#SportifHomme"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Sportif"/>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#hasGender"/>
-                <Class IRI="#Man"/>
-            </ObjectAllValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#SportifsFrancais"/>
         <ObjectIntersectionOf>
             <Class IRI="#Sportif"/>
@@ -516,20 +489,6 @@
                 <ObjectProperty IRI="#hasNationality"/>
                 <Class IRI="#Francaise"/>
             </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#SportifsHommeNonFrançais"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Sportif"/>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#hasGender"/>
-                <Class IRI="#Man"/>
-            </ObjectAllValuesFrom>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#hasNationality"/>
-                <Class IRI="#NonFrancaise"/>
-            </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -594,14 +553,6 @@
         <Class IRI="#SportIndividuel"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Man"/>
-        <Class IRI="#Sex"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Nom"/>
-        <Class IRI="#Identite"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#NonFrancaise"/>
         <Class IRI="#Nationalite"/>
     </SubClassOf>
@@ -646,20 +597,12 @@
         <Class IRI="#Poste"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Prenom"/>
-        <Class IRI="#Identite"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Rugby"/>
         <Class IRI="#SportCollectif"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RugbyArriereRugby"/>
         <Class IRI="#PostesRugby"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Sex"/>
-        <Class IRI="#Identite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SportCollectif"/>
@@ -696,10 +639,6 @@
     <SubClassOf>
         <Class IRI="#TroisiemeLigneCentreRugby"/>
         <Class IRI="#PostesRugby"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Woman"/>
-        <Class IRI="#Sex"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Basket"/>
@@ -753,6 +692,18 @@
     <ClassAssertion>
         <Class IRI="#EquipeRugby"/>
         <NamedIndividual IRI="#EquipeRugby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competition"/>
+        <NamedIndividual IRI="#Event_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competition"/>
+        <NamedIndividual IRI="#Event_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competition"/>
+        <NamedIndividual IRI="#Event_3"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#IndividuelsInternationaux"/>
@@ -1009,6 +960,41 @@
         <NamedIndividual IRI="#SIG"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">compétition 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">compétition 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Event_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#Event_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">compétiton 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#SIG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SIG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
         <NamedIndividual IRI="#SigPlayer_1"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Abrogast</Literal>
@@ -1059,16 +1045,8 @@
         <ObjectProperty IRI="#isEvent"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#hasNom"/>
-        <ObjectProperty IRI="#isNom"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
         <ObjectProperty IRI="#hasPoste"/>
         <ObjectProperty IRI="#isPoste"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#hasPrenom"/>
-        <ObjectProperty IRI="#isPrenom"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasSomeSport"/>
@@ -1104,23 +1082,11 @@
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasGender"/>
-        <Class IRI="#Sportif"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasNationality"/>
         <Class IRI="#Sportif"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasNom"/>
-        <Class IRI="#Sportif"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasPoste"/>
-        <Class IRI="#Sportif"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasPrenom"/>
         <Class IRI="#Sportif"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1159,24 +1125,12 @@
         <Class IRI="#Evenement"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasGender"/>
-        <Class IRI="#Sex"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasNationality"/>
         <Class IRI="#Nationalite"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasNom"/>
-        <Class IRI="#Nom"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPoste"/>
         <Class IRI="#Poste"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasPrenom"/>
-        <Class IRI="#Prenom"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSomeSport"/>
@@ -1194,6 +1148,10 @@
         <ObjectProperty IRI="#isSportOf"/>
         <Class IRI="#Competition"/>
     </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#Competition"/>
+    </DataPropertyDomain>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AilierBasket</IRI>
